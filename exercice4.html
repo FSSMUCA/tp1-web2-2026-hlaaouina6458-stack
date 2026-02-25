@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TP JavaScript</title>
+  </head>
+  <body>
+    <h1>Exercice 4</h1>
+
+    <script>
+      
+      let prénom = window.prompt("Quel est votre prénom ?");
+      let age = window.prompt("Quel est votre âge ?");
+      age = Number(age);
+
+      anneeNaissance = 2025 - 19;
+      window.alert("Bonjour " + prénom + " ! Vous êtes née vers " + anneeNaissance + ".");
+
+      let afficherConsole = window.confirm("Afficher dans la console ?");
+
+    
+    if (afficherConsole === true) {
+        console.log("Prénom :", prénom);
+        console.log("Âge :", age);
+        console.log("Année de naissance :", anneeNaissance);
+    }
+
+    </script>
+  </body>
+</html>
